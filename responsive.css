@@ -1,0 +1,133 @@
+@media all and (max-width: 1000px) {
+    .lesson {
+      width: 25%;
+      margin-bottom: 50px;
+    }
+
+    .lesson-wrapper {
+        height: 250%;
+        padding: 20px;
+        background-color: rgb(250, 246, 235);
+        text-align:center;
+      }
+
+
+      footer {
+      text-align: center;
+    }
+  
+    .top-wrapper h1 {
+      font-size: 32px;
+    }
+  
+    .heading h2 {
+      font-size: 20px;
+    }
+  }
+  
+  /* スマホ向けレイアウト */
+  @media all and (max-width: 670px) {
+    header{
+      height:11%;
+      background-image: linear-gradient(-45deg, rgba(35, 35, 36, 0.631), rgba(0, 10, 12, 0.774)); 
+      background-size: cover;
+      position:fixed;
+      top:0px
+      z-index:9999;
+      width:100%;
+    }
+    
+    .lesson {
+      width: 25%;
+      margin-bottom: 10px;
+    }
+
+    header .fab fa-whmcs fa-3x,h1,header-right{
+      display:inline-block;
+    }
+    
+    .header-left{
+      float:left;
+      color:white;
+      font-family: Monotype Corsiva;
+      font-size:12px;
+    }
+    
+    .header-right{
+      float:right;
+      background-image: linear-gradient(-45deg, hsla(224, 92%, 49%, 0.631), hsla(192, 94%, 50%, 0.774)),url(sora.jpg);
+      color:white;
+      font-size:12px;
+      color:black;
+      text-decoration:none;
+      transition:all 0.5s;
+    }
+    
+    
+    .header-right a {
+      line-height: 65%;
+      padding:0 10px;
+      color: white;
+      display: block;
+    }
+    
+    .header-right .login{
+      line-height: 65%;
+    }
+    
+    .header-right:hover{
+      float:right;
+      background-image: linear-gradient(-45deg, #0aeeeea1, hsla(192, 94%, 50%, 0.774)),url(sora.jpg);
+    }
+    
+
+
+
+
+
+
+
+    header .container{
+      width:100%;
+    }
+
+    .header-right,fa fa-bars menu-icon{
+      font-size:12px;
+    }
+
+    .header-left{
+      font-size:12px;
+    }
+
+    .lesson {
+      width: 100%;
+    }
+  
+    .btn {
+      width: 100%;
+    }
+  
+    .facebook {
+      margin-bottom: 10px;
+    }
+    
+    .top-wrapper {
+      text-align: left;
+    }
+  
+    .header-right{
+      display:none;
+    }
+    
+    .menu-icon{
+      display:block;
+    }
+    
+    .top-wrapper h1 {
+      font-size: 24px;
+    }
+  
+    .top-wrapper p {
+      font-size: 14px;
+    }
+  }
