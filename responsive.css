@@ -4,10 +4,6 @@
       margin-bottom: 50px;
     }
 
-    header{
-      width:25%;
-      text-align: center;  
-    }
     
     .lesson-wrapper {
         height: 250%;
@@ -32,9 +28,8 @@
   /* スマホ向けレイアウト */
   @media all and (max-width: 670px) {
 
-    header{
-      width:100%;
-      text-align: center;  
+   .container{
+      width:100%; 
     }
 
     .lesson {
