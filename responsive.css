@@ -4,6 +4,10 @@
       margin-bottom: 50px;
     }
 
+    header{
+      width:25%;
+    }
+    
     .lesson-wrapper {
         height: 250%;
         padding: 20px;
