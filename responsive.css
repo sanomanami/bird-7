@@ -36,7 +36,7 @@
 
     header .fab fa-whmcs fa-3x,h1,header-right{
       display:inline-block;
-      width:100%;
+      width:20%;
     }
     
     .header-left{
@@ -74,7 +74,7 @@
     }
     
     header .container{
-      width:100%;
+      width:500px;
     }
 
     .header-right,fa fa-bars menu-icon{
@@ -82,7 +82,7 @@
     }
 
     .header-left{
-      font-size:12px;
+      font-size:6px;
     }
 
   
