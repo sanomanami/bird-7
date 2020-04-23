@@ -27,8 +27,8 @@ header {
 
 .header-left {
   height: 11%;
-  background-image: linear-gradient(-45deg, rgba(35, 35, 36, 0.631), rgba(0, 10, 12, 0.774));
   background-size: cover;
+  background-image: linear-gradient(-45deg, rgba(35, 35, 36, 0.631), rgba(0, 10, 12, 0.774));
   position: fixed;
   top: 0px;
   width: 100%;
@@ -122,18 +122,18 @@ header {
 .bubble {
   position: absolute;
   bottom: -40;
-  width: 40px;
-  height: 40px;
-  background-image: url(ayasora.jpg);
-  opacity: 0.7;
+  width: 50px;
+  height: 50px;
+  background-image: url(saisora.jpg);
+  opacity: 0.8;
   border-radius: 50%;
   -webkit-animation: bubble 10s ease-in infinite;
           animation: bubble 10s ease-in infinite;
 }
 
 .bubble:nth-child(1) {
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   left: 30%;
   -webkit-animation-duration: 6s;
           animation-duration: 6s;
@@ -167,6 +167,22 @@ header {
   left: 70%;
   -webkit-animation-duration: 4.5s;
           animation-duration: 4.5s;
+}
+
+.bubble:nth-child(6) {
+  width: 30px;
+  height: 30px;
+  left: 75%;
+  -webkit-animation-duration: 3.5s;
+          animation-duration: 3.5s;
+}
+
+.bubble:nth-child(7) {
+  width: 30px;
+  height: 30px;
+  left: 80%;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
 }
 
 @-webkit-keyframes bubble {
