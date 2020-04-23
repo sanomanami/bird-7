@@ -1,5 +1,5 @@
   /* スマホ向けレイアウト */
-  @media all and (max-width: 500px) {
+  @media all and (max-width: 300px) {
     
     *{
       box-sizing: border-box;
@@ -10,7 +10,7 @@
       padding: 0;        /* 余白の削除 */
       width:100%;
       height:100%;
-      max-width: 500px;
+      max-width: 300px;
     }
     
     body {
@@ -30,13 +30,14 @@
       background-size: cover;
       position:fixed;
       top:0%;
-      width:500px;
+      width:300px;
     }
     
 
     header .fab fa-whmcs fa-3x,h1,header-right{
       display:inline-block;
       width:20%;
+      line-height: 10px;
     }
     
     .header-left{
