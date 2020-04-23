@@ -32,11 +32,6 @@
       width:100%;
     }
     
-    .lesson {
-      display: block;
-      margin-bottom: 30px;
-      width:25%;
-    }
 
     header .fab fa-whmcs fa-3x,h1,header-right{
       display:inline-block;
@@ -89,11 +84,13 @@
       font-size:12px;
     }
 
-    .lesson {
+  
+    .lesson-icon{ 
       width: 25%;
+      height:25%;
       display:block;
     }
-  
+    
     .btn {
       width: 100%;
     }
